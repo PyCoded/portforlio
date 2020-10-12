@@ -8,17 +8,13 @@
 
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <style>
+   <style>
 body {
-  padding-top: 20px;
+  padding-top: 0px;
   font-size:15px;
-  color: #7a7a7a;
+  color: #000;
   line-height: 1.7em;
-}
-
-body{
-	color:#aaa;
-	background:#f4f4f4;
+  background: white;
 }
 
 a{
@@ -29,17 +25,13 @@ a:hover{
 	color:#cccccc;
 }
 
-.button{
-	color:#5a5a5a;
-}
-
 .top-bar{
 	font-size:13px;
-	color:#666;
+	background: #0faf97;
 }
 
 .top-bar .social .fa{
-	color:#666;
+	color:red;
 	background: #f9fbf8;
 	padding:9px;
 	width:35px;
@@ -99,6 +91,68 @@ header{
 	float:right;
 }
 
+.fa-3{
+font-size: 80px;
+color: red;
+margin-top: 10px;
+text-align: center;
+}
+
+.btn-primary{
+  background:#0faf97;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.btn-primary:hover{
+  background:#fff;
+  color:#0faf97;
+  border-color:#0faf97;
+}
+
+.btn-primary-reverse{
+  background:#fff;
+  color:#0faf97;
+  border-color:#0faf97;
+}
+
+.btn-primary-reverse:hover{
+  background:#0faf97;
+}
+
+.container{
+  max-width:100%;
+  height: auto;
+}
+
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+  background:#0faf97;
+}
+
+.colums.p{
+text-align: center;
+}
+footer{
+width: 100%;
+background: #0faf97;
+}
+h4{
+color: red;
+}
+
+ul{
+list-style: none;
+}
+.main-footer{
+text-align: center;
+}
+.copyright{
+width: 100%;
+padding-top: 5px;
+text-align: center;
+}
     </style>
   </head>
   <body>
@@ -108,8 +162,6 @@ header{
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
         </div>
         <div class="large-3 columns">
           <span><i class="fa fa-phone"></i> Phone: +23480 3337 1444</span>
@@ -133,13 +185,82 @@ header{
         <div class="large-8 columns">
           <ul class="menu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
+			<li><a href="project.html">Project</a></li>
+			<li><a href="pychat.html">PyChat</a></li>
+			<li><a href="about.html">About</a></li>
           </ul>
         </div>
       </div>
     </header>
 	
+	   <section class="row">
+        <div class="container">
+          <div class="large-4 columns">
+            <div class="block">
+              <i class="fa fa-code fa-3"></i>
+              <h3>Web Development</h3>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Chect out</a></p>
+            </div>
+          </div>
+
+          <div class="large-4 columns">
+            <div class="block">
+            <i class="fa fa-photo fa-3"></i>
+              <h3>Graphics Design</h3>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Chect out</a></p>
+            </div>
+          </div>
+
+          <div class="large-4 columns">
+            <div class="block">
+            <i class="fa fa-book fa-3"></i>
+              <h3>Ghostwriting</h3>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+	          <p><a class="btn btn-lg btn-primary" href="#" role="button">Chect out</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <div class="clearfix"></div>
+	
+    <footer class="main-footer">
+        <div class="large-4 columns">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		  Suspendisse pretium efficitur justo ut malesuada. 
+		  Donec efficitur commodo est, sed maximus nisi pulvinar ac</p>
+        </div>
+        <div class="large-4 columns">
+          <h4>Our Product</h4>
+            <ul class="list-group">
+              <li class="list-group-item"><i class="fa fa-check" aria-hidden="true"></i> E-Commerce</li>
+              <li class="list-group-item"><i class="fa fa-check" aria-hidden="true"></i> Business Sites</li>
+              <li class="list-group-item"><i class="fa fa-check" aria-hidden="true"></i> News Sites</li>
+              <li class="list-group-item"><i class="fa fa-check" aria-hidden="true"></i> Photo Gallery</li>
+            </ul>
+        </div>
+        <div class="large-4 columns">
+          <h4>Our Partners</h4>
+          <ul>
+            <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Geniuskid</a></li>
+            <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Taheer Virus</a></li>
+            <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Aliyu Gombe</a></li>
+          </ul>
+        </div>
+      </div>
+	  <br/>
+	<div class="copyright">
+		<a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+		<br/>
+		 &copy; PyCoded 2020.
+	</div>
+    </footer>
   </body>
 </html>
